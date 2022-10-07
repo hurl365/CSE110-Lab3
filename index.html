@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>SerialOfJustice Meeting Notes</title>
+    <title>Serial0fJustice Meeting Notes</title>
     <meta charset="UTF-8">
     <meta name="author" content="Ruilin Hu">
     <meta name="email" content="ruhu@ucsd.edu">
@@ -9,14 +9,19 @@
   </head>
   <body>
     <header>
-        <h1>SerialOfJustice Meeting Notes May 15, 2019</h1>
+        <h1>Serial0fJustice Meeting Notes May 15, 2019</h1>
         <h3><i>Overview of the Meeting Notes</i></h3>
         <ol>
             <li>What we went over last meeting</li>
             <li>What we talk about in this meeting</li>
             <li>The next step we should take before we <b>meet</b> again</li>
         </ol>
+        <details>
+            <summary>Remember what happens when we finish the first chapter's last level?</summary>
+            <p>Segmentation fault. Signal SIGABRT.</p>
+        </details>
     </header>
+    <hr>
     <nav>
 
     </nav>
@@ -29,7 +34,7 @@
         <h2>Current Situation</h2>
         <h3>Programming</h3>
         <h3>Art and Music Assets</h3>
-        <img src="Serial0fJustice.png" alt="She is falling asleep." width="463" height="463">
+        <img src="Serial0fJustice.png" alt="She is falling asleep." width="300" height="300">
         <br>
         <audio controls>
             <source src="startUpMusic.mp3" type="audio/mp3">
@@ -40,6 +45,12 @@
         <hr>
         <section>From Now on...</section>
         <h2>Future Plannings</h2>
+        <ul>
+            <li>Fully recover the source code.</li>
+            <li>Update all depreciated syntax to the newest Swift standard.</li>
+            <li>Let the story reach a conclusion.</li>
+            <li>Let us meet again, but not on the 0ther side of terror.</li>
+        </ul>
         <hr>
     </main>
     <footer>
@@ -49,10 +60,57 @@
             <p>This is not the time and place to give up yet. <br>Those who wish me triumph will help me succeed.</p>
         </div>
         <h2>Well, don't worry for now. Cheer up a little bit!</h2>
-        <video controls width="700" height="700">
+        <video controls width="300" height="300">
             <source src="Zane-emote.mp4" type="video/mp4">
             It is a simple video of Zane doing emotes.
         </video>
+        <p>(This short animation video does not have audio.)</p>
+        <hr>
+        <h2>Feedback</h2>
+        <label for="feedback-preference">Select your Feedback Preference:</label>
+        <input list="feedback-preferences" id="feedback-preference">
+        <datalist id="feedback-preferences">
+            <option value = "Regular Feedback"></option>
+            <option value = "Anonymous Feedback"></option>
+        </datalist>
+        <input type="submit" value="Submit">
+        <p>How do you feel about this meeting notes? 5=awesome 1=needs improvement</p>
+        <form>
+            <fieldset>
+                <input type="radio" id="5" name="rating" value="5">
+                <label for="5">5 - Awesome</label>
+                <br>
+                <input type="radio" id="4" name="rating" value="4">
+                <label for="4">4 - Good</label>
+                <br>
+                <input type="radio" id="3" name="rating" value="3">
+                <label for="3">3 - Fair</label>
+                <br>
+                <input type="radio" id="2" name="rating" value="2">
+                <label for="2">2 - Poor</label>
+                <br>
+                <input type="radio" id="1" name="rating" value="1">
+                <label for="1">1 - Flawed</label>
+            </fieldset>
+            <br>
+            
+            <p>Please leave any comments you have below:</p>
+            <textarea>Thank you!</textarea>
+            <br>
+            <br>
+            <label for="meeting-times">Select your preferred meeting time:</label>
+            <select name="meeting-times" id="meeting-times">
+                <option value="yesterday">Yesterday</option>
+                <option value="today">Today</option>
+                <option value="tomorrow">Tomorrow</option>
+                <option value="never">Never</option>
+                <option value="forever">Forever</option>
+            </select>
+            <br>
+            <br>
+            <button>Reset</button>
+            <input type="submit" value="Submit">
+        </form>
     </footer>
   </body>
 </html>
