@@ -11,14 +11,21 @@ fieldset {
 textarea {
     /*fixed unit #2*/
     width: 6cm;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
 }
 .start-up-music-player {
     /*fixed unit #3*/
     width: 3in;
+    margin: auto;
+    padding: 30px 30px 30px 50px;
 }
 .feedback-pref-label {
     /*relative unit #1*/
     height: 5ex;
+    margin: 20px 20px 20px 20px;
 }
 .setting-up-music-player {
     /*relative unit #2*/
@@ -27,9 +34,13 @@ textarea {
     /*relative unit #3*/
     height: 10vh;
     max-height: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
- * {
-    /*change text attributes in nav*/
+nav * {
+
 }
 a[href="https://svgdb.me/assets/audio/en/vo_109441010_4.mp3"] {
     /*change text attributes in Not Here*/
