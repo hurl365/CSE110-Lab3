@@ -27,6 +27,9 @@ textarea {
     height: 10vh;
 }
 .future-list {  
-    
+    border-style: dotted;
+    border-color: #8D86C9;
+    border-width: 20px;
+    border-radius: 50px;
 }
 
