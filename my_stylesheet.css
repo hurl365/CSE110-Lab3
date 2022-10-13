@@ -23,8 +23,10 @@ textarea {
 .setting-up-music-player {
     /*relative unit #2*/
     width: 50vw;
+    max-width: 500px;
     /*relative unit #3*/
     height: 10vh;
+    max-height: 80px;
 }
 .future-list {  
     border-style: dotted;
