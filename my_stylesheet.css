@@ -40,7 +40,8 @@ textarea {
     padding-bottom: 50px;
 }
 nav * {
-
+    text-decoration: overline underline;
+    text-align: center;
 }
 a[href="https://svgdb.me/assets/audio/en/vo_109441010_4.mp3"] {
     /*change text attributes in Not Here*/
