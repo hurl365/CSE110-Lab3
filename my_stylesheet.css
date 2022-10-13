@@ -5,9 +5,28 @@ h2 {
     color: hsl(280 50% 40%);
 }
 fieldset {
+    /*fixed unit #1*/
     width: 200px;
 }
 textarea {
+    /*fixed unit #2*/
     width: 6cm;
+}
+.start-up-music-player {
+    /*fixed unit #3*/
+    width: 3in;
+}
+.feedback-pref-label {
+    /*relative unit #1*/
+    height: 5ex;
+}
+.setting-up-music-player {
+    /*relative unit #2*/
+    width: 50vw;
+    /*relative unit #3*/
+    height: 10vh;
+}
+.future-list {  
+    
 }
 
