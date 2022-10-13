@@ -31,7 +31,7 @@
     </header>
     <hr>
     <main>
-        <section id='past'><h4>From Last Time...</h4></section>
+        <section id='past'><h4 class="last-time">From Last Time...</h4></section>
         <details>
             <summary>Remember what happens when we finish the first chapter's last level?</summary>
             <p>Segmentation fault. Signal SIGABRT.</p>
@@ -40,7 +40,7 @@
         <h3>Applying for Apple Developer</h3>
         <p>They declined the credit card...Maybe I need to have one under my own name?</p>
         <hr>
-        <section id='present'><h4>And Right Now...</h4></section>
+        <section id='present'><h4 class="this-time">And Right Now...</h4></section>
         <h2>Current Situation</h2>
         <h3>Programming</h3>
         <P>The source code is buried deep in the hard drives. It was complete, but some syntax might be outdated now.</P>
@@ -68,9 +68,9 @@
         <h3>Publication</h3>
         <p>Since it is written completely in XCode using Swift, we have to publish on Apple's App Store.</p>
         <hr>
-        <section id='future'><h4>From Now on...</h4></section>
+        <section id='future'><h4 class="next-time">From Now on...</h4></section>
         <h2>Future Plannings</h2>
-        <ul class="future-list">
+        <ul id="future-list">
             <li>Fully recover the source code.</li>
             <li>Update all depreciated syntax to the newest Swift standard.</li>
             <li>Let the story reach a conclusion.</li>
@@ -109,7 +109,7 @@
         <form>
             <fieldset>
                 <input type="radio" id="5" name="rating" value="5">
-                <label for="5">5 - Awesome</label>
+                <label class="feedback-class" for="5">5 - Awesome</label>
                 <br>
                 <input type="radio" id="4" name="rating" value="4">
                 <label for="4">4 - Good</label>
