@@ -52,7 +52,11 @@ a[href="https://svgdb.me/assets/audio/en/vo_109441010_4.mp3"] {
 }
 /* pseudo class selector for buttons*/
 button:hover {
-
+    color:#8D86C9;
+}
+/* pseudo class selector for buttons*/
+textarea:active {
+    color:blueviolet;
 }
 h2.static {
     position: relative;
