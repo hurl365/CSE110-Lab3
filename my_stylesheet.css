@@ -28,10 +28,40 @@ textarea {
     height: 10vh;
     max-height: 80px;
 }
-.future-list {  
+ * {
+    /*change text attributes in nav*/
+}
+a[href="https://svgdb.me/assets/audio/en/vo_109441010_4.mp3"] {
+    /*change text attributes in Not Here*/
+}
+/* pseudo class selector for buttons*/
+button:hover {
+
+}
+/*selector list*/
+ol, ul {
     border-style: dotted;
     border-color: #8D86C9;
     border-width: 20px;
     border-radius: 50px;
 }
-
+/*Descendant list*/
+ol li {
+    
+}
+/*Child Combinator*/
+nav > a {
+    
+}
+/*General sibling combinators*/
+audio ~ p {
+    
+}
+/*Adjacent sibling combinator */
+p + form {
+    
+}
+/*Combining Two Selectors*/
+label.feedback-class {
+    color:blueviolet;
+}
