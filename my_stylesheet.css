@@ -7,6 +7,13 @@ h1 {
 h2 {
     color: hsl(280 50% 40%);
 }
+@font-face {
+    font-family: "Quicksand";
+    src: url(Quicksand.ttf);
+}
+p {
+    font-family: "Quicksand";
+}
 fieldset {
     /*fixed unit #1*/
     width: 200px;
