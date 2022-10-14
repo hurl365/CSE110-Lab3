@@ -56,6 +56,7 @@ nav * {
 }
 a[href="https://svgdb.me/assets/audio/en/vo_109441010_4.mp3"] {
     /*change text attributes in Not Here*/
+    font-weight: 600;
 }
 /* pseudo class selector for buttons*/
 button:hover {
@@ -83,19 +84,17 @@ ol, ul {
 }
 /*Descendant list*/
 ol li {
-    
-}
-/*Child Combinator*/
-nav > a {
-    
+    border-style: dashed;
+    border-color: #c8aaeb;
+    border-width: 1px;
 }
 /*General sibling combinators*/
 audio ~ p {
-    
+    color: #2E1760;
 }
 /*Adjacent sibling combinator */
 p + form {
-    
+    font-size: larger;
 }
 /*Combining Two Selectors*/
 label.feedback-class {
@@ -108,4 +107,53 @@ label.feedback-class {
     h3 {
         color: #6156B3;
     }
+}
+/*flex box*/
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    height: 20vh;
+}
+/*Child Combinator*/
+.flex-container > div {
+    border-style: double;
+    border-color: #6156B3;
+    height:10vh;
+}
+.flex-box-1 {
+    order: 2;
+    flex-grow: 5;
+    align-self: flex-end;
+}
+.flex-box-2 {
+    order: 1;
+    flex-shrink: 2;
+    align-self: stretch;
+}
+.flex-box-3 {
+    order: 3;
+    align-self: flex-start;
+    flex-basis: auto;
+}
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: [first] 10px [line2] 10px [line3] 20px [col4-start] 400px [five] 200px [end];
+    grid-template-rows: 0.4fr 0.5fr 0.6fr;
+}
+.grid-box3 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    justify-self: center;
+}
+.grid-box1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    justify-self: left;
+}
+.grid-box2 {
+    grid-row-end: 4;
+    align-self: start;
+    justify-self: stretch;
 }
